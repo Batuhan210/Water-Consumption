@@ -3,8 +3,8 @@ print("Water Consumption")
 print("-" * 20)
 
 def waterConsumption(weight):
-    maleCalculate = int(weight * 0.04)
-    femaleCalculate = int(weight * 0.03)
+    maleCalculate = weight * 0.04
+    femaleCalculate = weight * 0.03
     
     gender = input("Enter your gender(Female/Male): ").lower()
     
